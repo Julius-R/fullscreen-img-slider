@@ -65,3 +65,36 @@ body, #slider, .wrapper, .slide-content {
   right: 0;
   margin-right: 30px;
 }
+
+
+@media (max-width: 460px) {
+
+  .slide-content span {
+    font-size: 3rem;
+    color: #fff;
+  }
+
+  .arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: 80px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+
+  #arrow-left {
+    border-width: 10px 20px 10px 0;
+    border-color: transparent #fff transparent transparent;
+    left: 0;
+    margin-left: 50px;
+  }
+
+  #arrow-right {
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent #fff;
+    right: 0;
+    margin-right: 50px;
+  }
+}
